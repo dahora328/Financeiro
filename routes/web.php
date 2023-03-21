@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ExpenditureController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
@@ -15,5 +16,6 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'home'])->name('home');
+Route::resource('expenditures', ExpenditureController::class);
 
 
