@@ -19,7 +19,7 @@ class ExpenditureController extends Controller
      */
     public function create()
     {
-        //
+        return view('expenditures.create');
     }
 
     /**

@@ -7,7 +7,7 @@
     <title>Despesas</title>
 </head>
 <body>
-
+    <a href="{{ route('expenditures.create')}}">Novo</a>
     <table border="1" width="100%">
         <thead>
             <tr>
